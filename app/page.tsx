@@ -72,6 +72,15 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-8">Latest News</h2>
               <div className="space-y-8">
                 <div className="border-b pb-8">
+                  <h3 className="text-xl font-bold mb-2">EA Decision Release</h3>
+                  <p className="text-gray-600 mb-4">
+                    The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 4th at 4 p.m. (PDT).
+                  </p>
+                  <a href="/news/ea-decision-release" className="text-[#2c5282] font-medium hover:underline">
+                    Read more →
+                  </a>
+                </div>
+                <div className="border-b pb-8">
                   <h3 className="text-xl font-bold mb-2">2025 Scholarship Applications Now Open</h3>
                   <p className="text-gray-600 mb-4">
                     Applications for the 2025-2026 academic year are now being accepted. Apply by May 1, 2025 to be considered for our full range of scholarship opportunities.
