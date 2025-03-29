@@ -7,7 +7,7 @@ export default function VolunteersPage() {
       {/* Header Banner */}
       <div className="relative w-full h-[400px] mb-10">
         <Image
-          src="https://www.stanford.edu/wp-content/uploads/2022/02/about-campus-001-1-1199x800-1.jpg"
+          src="https://visit.stanford.edu/assets/cardinal/images/explore-campus/self-guided-tour-stanford-gardens.jpg"
           alt="Lu Scholar volunteers at an event"
           fill
           className="object-cover"
