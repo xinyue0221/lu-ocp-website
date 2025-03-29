@@ -10,7 +10,7 @@ export default function Apply() {
       {/* Feature Banner */}
       <div className="relative w-full h-[400px] mb-10">
         <Image
-          src="/images/students-classroom.jpg"
+          src="https://admission.stanford.edu/assets/cardinal/images/banners/afford/banner2XL.jpg"
           alt="Students in a classroom setting"
           fill
           className="object-cover"
@@ -37,25 +37,25 @@ export default function Apply() {
               {
                 title: 'Admission Overview',
                 href: '/apply/overview',
-                image: '/images/collaboration.jpg',
+                image: 'https://media.istockphoto.com/id/878934088/photo/group-of-college-students-collaborating-on-project-in-library.jpg?s=612x612&w=0&k=20&c=UpsNnjXiD1lhiIOICkIFvgdcxs3_22F-GJgat_w3e1g=',
                 alt: 'Students collaborating on a project'
               },
               {
                 title: 'High School Applicants',
                 href: '/apply/high-school',
-                image: '/images/high-school.jpg',
+                image: 'https://media.istockphoto.com/id/1480277406/photo/graduation-group-and-back-view-of-students-celebrate-education-success-behind-of-excited.jpg?s=612x612&w=0&k=20&c=KRfzU9eeBsUdCNUXQSIx4yf6O2PlMD9XvckFgx-hndc=',
                 alt: 'High school students with graduation caps'
               },
               {
                 title: 'Undergraduate Applicants',
                 href: '/apply/undergraduate',
-                image: '/images/undergraduate.jpg',
+                image: 'https://med.stanford.edu/education/undergrad-studies/_jcr_content/main/panel_builder/panel_0/story.img.476.high.jpg/undergrad-classroomlearning.jpg',
                 alt: 'College students on campus'
               },
               {
                 title: 'Graduate Applicants',
                 href: '/apply/graduate',
-                image: '/images/graduate.jpg',
+                image: 'https://www.keg.com/hubfs/Keystone%20August%202018%20Folder/Images/52834_NAGAP_Thumbnail_2.jpg',
                 alt: 'Graduate students in a laboratory'
               }
             ].map((item, index) => (
@@ -81,31 +81,19 @@ export default function Apply() {
             ))}
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {[
               {
                 title: 'International Applicants',
                 href: '/apply/international',
-                image: '/images/international.jpg',
+                image: 'https://imageio.forbes.com/specials-images/imageserve/5c5ca76131358e2a162e99ee/960x0.jpg?format=jpg&width=1440',
                 alt: 'International students with diverse backgrounds'
               },
               {
                 title: 'Undocumented Applicants',
                 href: '/apply/undocumented',
-                image: '/images/undocumented.jpg',
+                image: 'https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/minority-students-d/original.jpg?1627682493',
                 alt: 'Students in a welcoming environment'
-              },
-              {
-                title: 'Application Deadlines',
-                href: '/apply/deadlines',
-                image: '/images/deadlines.jpg',
-                alt: 'Calendar with important dates marked'
-              },
-              {
-                title: 'Frequently Asked Questions',
-                href: '/apply/faq',
-                image: '/images/faq.jpg',
-                alt: 'Students asking questions'
               }
             ].map((item, index) => (
               <Link 
