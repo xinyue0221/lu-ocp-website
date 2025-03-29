@@ -25,7 +25,7 @@ export default function UndergraduateApplicants() {
             <ul className="mb-8 space-y-2">
               <li className="flex items-start gap-3">
                 <FaRegSquare className="text-[#2c5282] mt-1.5" />
-                <span>Lu Scholar Application</span>
+                <span><a href="https://portal.scholar.lu-memorial.org/apply" className="text-[#2c5282] hover:underline">Lu Scholar Application</a></span>
               </li>
               <li className="flex items-start gap-3">
                 <FaRegSquare className="text-[#2c5282] mt-1.5" />
