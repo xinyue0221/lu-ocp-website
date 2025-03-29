@@ -10,7 +10,7 @@ export default function EADecisionReleasePage() {
           
           <div className="prose lg:prose-xl">
             <p className="text-lg text-[#333] mb-6">
-              The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 4th at 4 p.m. (PDT).
+              The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 11th at 4 p.m. (PDT).
             </p>
             
             <h3 className="text-xl font-semibold text-[#333] mt-8 mb-4">Access Your Decision</h3>

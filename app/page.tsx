@@ -74,7 +74,7 @@ export default function Home() {
                 <div className="border-b pb-8">
                   <h3 className="text-xl font-bold mb-2">EA Decision Release</h3>
                   <p className="text-gray-600 mb-4">
-                    The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 4th at 4 p.m. (PDT).
+                    The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 11th at 4 p.m. (PDT).
                   </p>
                   <a href="/news/ea-decision-release" className="text-[#2c5282] font-medium hover:underline">
                     Read more →
