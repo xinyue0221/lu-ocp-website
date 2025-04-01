@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import CountdownTimer from './CountdownTimer'
 
 export default function EADecisionReleasePage() {
   return (
@@ -6,7 +7,9 @@ export default function EADecisionReleasePage() {
       <div className="max-w-4xl">
         <article className="mb-16">
           <h1 className="text-4xl font-bold mb-4">EA Decision Release</h1>
-          <p className="text-gray-500 mb-6">March 29, 2025</p>
+          <p className="text-gray-500 mb-6">April 1, 2025</p>
+          
+          <CountdownTimer />
           
           <div className="prose lg:prose-xl">
             <p className="text-lg text-[#333] mb-6">
@@ -24,13 +27,13 @@ export default function EADecisionReleasePage() {
             </p>
             <ul className="list-disc pl-6 mb-6">
               <li className="mb-2 text-lg text-[#333]">Offered - You have been selected as a Lu Scholar</li>
-              <li className="mb-2 text-lg text-[#333]">Waitlisted - You have been placed on our waitlist for further consideration</li>
-              <li className="mb-2 text-lg text-[#333]">Not Offered - Your application has not been selected</li>
+              <li className="mb-2 text-lg text-[#333]">Deferred - Your application will be reconsidered in the regular decision round</li>
+              <li className="mb-2 text-lg text-[#333]">Not Offered - Your application has not been selected. You may be eligible to apply in future rounds. Visit our<a href="https://scholar.lu-memorial.org/apply" className="text-[#2c5282] hover:underline">Application Steps</a> page for more information.</li>
             </ul>
             
             <h3 className="text-xl font-semibold text-[#333] mt-8 mb-4">Next Steps</h3>
             <p className="text-lg text-[#333] mb-6">
-              Selected scholars will receive detailed information about next steps and important deadlines for accepting the scholarship offer. Waitlisted applicants will receive information about the waitlist process and timeline.
+              Selected scholars will receive detailed information about next steps and important deadlines for accepting the scholarship offer. Deferred applicants will be automatically considered in the regular decision round.
             </p>
             
             <div className="bg-gray-50 p-6 rounded-lg mt-8 mb-8">
