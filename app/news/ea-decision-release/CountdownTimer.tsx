@@ -11,7 +11,7 @@ export default function CountdownTimer() {
   })
 
   useEffect(() => {
-    const targetDate = new Date('2025-04-11T16:00:00-07:00') // April 11th, 2025 at 4 PM PDT
+    const targetDate = new Date('2025-04-07T15:14:00-07:00') // April 7th, 2025 at 3:14 PM PDT
 
     const calculateTimeLeft = () => {
       const now = new Date()
@@ -34,8 +34,8 @@ export default function CountdownTimer() {
   }, [])
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm mb-8">
-      <h3 className="text-xl font-bold mb-4 text-[#2c5282]">Time Until Decision Release</h3>
+    <div className="bg-white p-6 rounded-lg shadow-sm mb-8 border border-[#2c5282]">
+      <h3 className="text-xl font-bold mb-4 text-center text-[#2c5282]">Countdown to Decision Release</h3>
       <div className="grid grid-cols-4 gap-4 text-center">
         <div>
           <div className="text-3xl font-bold text-[#2c5282]">{timeLeft.days}</div>
@@ -54,6 +54,9 @@ export default function CountdownTimer() {
           <div className="text-sm text-gray-600">Seconds</div>
         </div>
       </div>
+      <p className="text-center mt-4 text-sm text-gray-500">
+        Decisions will be released on April 7th at 3:14 PM (PDT)
+      </p>
     </div>
   )
 } 

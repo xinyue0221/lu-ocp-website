@@ -72,9 +72,9 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-8">Latest News</h2>
               <div className="space-y-8">
                 <div className="border-b pb-8">
-                  <h3 className="text-xl font-bold mb-2">EA Decision Release</h3>
+                  <h3 className="text-xl font-bold mb-2">EA Decision Release: The Temporal Enigma</h3>
                   <p className="text-gray-600 mb-4">
-                    The Office of Scholarship Programs will release decisions to Early Action applicants on Friday, April 11th at 4 p.m. (PDT).
+                    The Office of Scholarship Programs has encrypted the Early Action decision release date and time. Only those who solve the quantum enigmas will discover when destinies shall be unveiled.
                   </p>
                   <a href="/news/ea-decision-release" className="text-[#2c5282] font-medium hover:underline">
                     Read more →
